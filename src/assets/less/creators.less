@@ -1,0 +1,1117 @@
+// hero
+.ui {
+    &.container {
+        &.hero {
+            width: 100%;
+            padding: 5rem 6rem;
+            background-color: @dark-blue;
+
+            h1 {
+                color: @white;
+                font-family: @heading;
+                font-size: 5rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 5.5rem;
+                width: 60%;
+            }
+
+            p {
+                color: @white-90;
+                font-family: @text;
+                font-size: 1rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 1.5rem;
+                margin-top: 1.5rem;
+                width: 40%;
+            }
+
+            button {
+                border-radius: 2.5rem;
+                background: @yellow-button;
+                display: flex;
+                width: 15.625rem;
+                padding: 1rem 2rem;
+                justify-content: center;
+                align-items: center;
+                color: @dark-blue;
+                font-family: @text;
+                font-size: 1rem;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 1.5rem;
+                margin-top: 3.5rem;
+            }
+
+            .stat {
+                display: flex;
+                align-items: center;
+                gap: 2.625rem;
+                justify-content: flex-start;
+                margin-top: 3.5rem;
+
+                h2 {
+                    color: @white;
+                    font-family: @heading;
+                    font-size: 2rem;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 2.5rem;
+                    width: 21.125rem;
+                    margin: 0;
+                }
+
+                h1 {
+                    color: @white;
+                    font-family: @heading;
+                    font-size: 3.5rem;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 4rem;
+                    margin: 0;
+                }
+            }
+
+            .img-box {
+                position: absolute;
+                top: 19rem;
+                right: 0;
+            }
+        }
+    }
+}
+
+//email card top
+.ui {
+    &.container {
+        &.email-card-top {
+            width: 100%;
+            padding: 8rem 6rem 17rem 6rem;
+            position: relative;
+
+            .card {
+                background-color: @light-blue-bg;
+                border-radius: 3.5rem;
+                display: flex;
+                padding: 4.5rem 3.5rem;
+                flex-direction: column;
+                align-items: flex-start;
+                width: 100%;
+
+                h1 {
+                    font-family: @heading;
+                    font-size: 3.5rem;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 4rem;
+                    text-align: start;
+                    color: @dark-blue;
+                    margin: 0;
+
+                    .blue {
+                        color: @blue;
+                    }
+                }
+
+                p {
+                    font-family: @text;
+                    font-size: 1.5rem;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 2rem;
+                    color: @dark-blue-90;
+                    text-align: start;
+                    margin-top: 1rem;
+                    margin-bottom: 3rem;
+                }
+
+                .input {
+                    display: flex;
+                    align-items: center;
+
+                    input {
+                        border-top-left-radius: 2.5rem !important;
+                        border-bottom-left-radius: 2.5rem !important;
+                        background-color: @white;
+                        overflow: hidden;
+                        border: 1px solid @white;
+                        padding: 1.25rem 2rem;
+                        width: 20rem;
+
+                        &::placeholder {
+                            color: @dark-blue-90;
+                            font-family: @text;
+                            font-size: 1rem;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: 1.5rem;
+                        }
+                    }
+
+                    button {
+                        margin: 0;
+                        border-radius: 0rem 2.5rem 2.5rem 0rem;
+                        background-color: @yellow-button;
+                        color: @dark-blue;
+                        display: flex;
+                        width: 12.5rem;
+                        padding: 1.25rem 2rem;
+                        justify-content: center;
+                        align-items: center;
+                        font-family: @text;
+                        font-size: 1rem;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 1.5rem;
+                        border: none;
+                        outline: none;
+                    }
+                }
+
+                .stat {
+                    display: flex;
+                    align-items: center;
+                    gap: 2.38rem;
+                    justify-content: flex-start;
+                    margin-top: 3rem;
+
+                    h2 {
+                        color: @blue;
+                        font-family: @heading;
+                        font-size: 3.5rem;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 4rem;
+                        margin: 0;
+                    }
+
+                    h1 {
+                        color: @dark-blue;
+                        font-family: @heading;
+                        font-size: 2rem;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 2.5rem;
+                        text-align: start;
+                        margin: 0;
+                    }
+                }
+
+                .right-img {
+                    position: absolute;
+                    right: -6rem;
+                    top: 1rem;
+                    width: 40rem !important;
+                    height: auto !important;
+
+                    img {
+                        object-fit: contain;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// bots section
+.ui {
+    &.container {
+        &.bots-section {
+            width: 100%;
+            padding: 8rem 6rem 17rem 6rem;
+            background-color: @light-green-bg;
+            position: relative;
+
+            .topbar {
+                position: relative;
+                .card {
+                    background-color: @light-green-bg;
+                    border-radius: 3.5rem;
+                    display: flex;
+                    padding: 6rem 5.38rem;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    position: absolute;
+                    width: 100%;
+                    top: -17rem;
+                    box-shadow: none;
+
+                    h1 {
+                        color: @green;
+                        font-family: @heading;
+                        font-size: 5rem;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 5.5rem;
+
+                        span {
+                            color: @dark-blue;
+                            font-size: 4.5rem;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 5rem;
+                        }
+                    }
+                }
+            }
+
+            .level-1 {
+                margin: 0;
+                padding: 0;
+                margin-top: 6rem;
+                .row {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: flex-start;
+                    gap: 1.25rem;
+
+                    .column {
+                        display: flex;
+                        flex: 1;
+                        width: 100%;
+                        height: 36rem;
+                        padding: 4.5rem 5.375rem;
+                        flex-direction: column;
+                        justify-content: flex-start;
+                        align-items: center;
+                        flex-shrink: 0;
+                        border-radius: 3.5rem;
+                    }
+
+                    &:first-child {
+                        .column {
+                            background-color: @green;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: flex-end;
+                            position: relative;
+
+                            .info {
+                                height: 100%;
+                                display: flex;
+                                flex-direction: column;
+                                width: 50%;
+                                margin-left: auto;
+
+                                .ui.header {
+                                    color: @white;
+                                    font-family: @heading;
+                                    font-size: 3.5rem;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 4rem;
+                                    margin-bottom: 2rem;
+                                }
+
+                                p {
+                                    color: @white-90;
+                                    font-family: @text;
+                                    font-size: 1rem;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: 1.5rem;
+                                    width: 60%;
+                                }
+
+                                [role='list'] {
+                                    margin-bottom: 2rem !important;
+
+                                    [role='listitem'] {
+                                        display: flex;
+                                        align-items: center;
+                                        gap: 0.3rem;
+
+                                        i {
+                                            color: @white;
+                                            font-weight: 600;
+                                        }
+                                        .content {
+                                            color: @white;
+                                            font-family: @lato;
+                                            font-size: 1rem;
+                                            font-style: normal;
+                                            font-weight: 600;
+                                            line-height: 1.5rem;
+
+                                            span {
+                                                color: @white-90;
+                                                font-weight: 400;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            .img {
+                                position: absolute;
+                                left: 4rem;
+                                bottom: 0;
+                                width: 20rem;
+                                object-fit: contain;
+                            }
+                        }
+                    }
+
+                    &:nth-child(2) {
+                        padding: 0;
+
+                        .column {
+                            background-color: @dark-blue;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: flex-start;
+                            position: relative;
+
+                            .info {
+                                height: 100%;
+                                display: flex;
+                                flex-direction: column;
+                                width: 50%;
+                                margin-right: auto;
+
+                                h1 {
+                                    color: @white;
+                                    font-family: @heading;
+                                    font-size: 3.5rem;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 4rem;
+                                    margin: 0;
+                                }
+
+                                [role='list'] {
+                                    margin-top: 2rem;
+
+                                    [role='listitem'] {
+                                        display: flex;
+                                        align-items: center;
+                                        gap: 0.3rem;
+
+                                        i {
+                                            color: @white;
+                                            font-weight: 600;
+                                        }
+                                        .content {
+                                            color: @white;
+                                            font-family: @text;
+                                            font-size: 1rem;
+                                            font-style: normal;
+                                            font-weight: 600;
+                                            line-height: 1.5rem; 
+
+                                            span {
+                                                color: @white-90;
+                                                font-weight: 400;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            .img {
+                                position: absolute;
+                                right: 4rem;
+                                bottom: 0;
+                                width: 20rem;
+                                object-fit: contain;
+                            }
+                        }
+                    }
+
+                    &:nth-child(3) {
+                        .column {
+                            background-color: @white;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: flex-end;
+                            position: relative;
+
+                            .info {
+                                height: 100%;
+                                display: flex;
+                                flex-direction: column;
+                                width: 50%;
+                                margin-left: auto;
+
+                                .ui.header {
+                                    color: @dark-blue;
+                                    font-family: @heading;
+                                    font-size: 3.5rem;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 4rem;
+                                    margin-bottom: 1rem;
+                                }
+
+                                p {
+                                    color: @dark-blue-90;
+                                    font-family: @text;
+                                    font-size: 1.5rem;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: 2rem; 
+                                    margin-bottom: 2rem !important;
+                                }
+
+                                [role='list'] {
+                                    [role='listitem'] {
+                                        display: flex;
+                                        align-items: center;
+                                        gap: 0.3rem;
+
+                                        i {
+                                            color: @dark-blue;
+                                            font-weight: 600;
+                                        }
+                                        .content {
+                                            color: @dark-blue;
+                                            font-family: @text;
+                                            font-size: 1rem;
+                                            font-style: normal;
+                                            font-weight: 600;
+                                            line-height: 1.5rem;
+
+                                            span {
+                                                color: @dark-blue-90;
+                                                font-weight: 400;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            .img {
+                                position: absolute;
+                                left: 4rem;
+                                bottom: 0;
+                                width: 20rem;
+                                object-fit: contain;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// publisher section
+.ui {
+    &.container {
+        &.publisher-section {
+            width: 100%;
+            padding: 8rem 6rem 17rem 6rem;
+            background-color: @light-blue-bg;
+            position: relative;
+
+            .topbar {
+                position: relative;
+                .card {
+                    background-color: @light-blue-bg;
+                    border-radius: 3.5rem;
+                    display: flex;
+                    padding: 6rem 5.38rem;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    position: absolute;
+                    width: 100%;
+                    top: -17rem;
+                    box-shadow: none;
+
+                    h1 {
+                        color: @blue;
+                        font-family: @heading;
+                        font-size: 5rem;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 5.5rem;
+
+                        span {
+                            color: @dark-blue;
+                            font-size: 4.5rem;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 5rem;
+                        }
+                    }
+                }
+            }
+
+            .level-1 {
+                margin: 0;
+                padding: 0;
+                margin-top: 6rem;
+                .row {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: flex-start;
+                    gap: 1.25rem;
+
+                    .column {
+                        display: flex;
+                        flex: 1;
+                        width: 100%;
+                        height: 36rem;
+                        padding: 3.5rem 3.5rem 4.5rem 3.5rem;
+                        flex-direction: column;
+                        justify-content: flex-start;
+                        align-items: flex-start;
+                        flex-shrink: 0;
+                        border-radius: 3.5rem;
+
+                        &:first-child {
+                            background-color: @blue;
+
+                            img {
+                                object-fit: contain;
+                                margin: 0 auto;
+                            }
+
+                            h1 {
+                                color: @white;
+                                font-family: @heading;
+                                font-size: 3.5rem;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 4rem;
+                                margin: 0;
+                            }
+
+                            p {
+                                color: @white-90;
+                                font-family: @text;
+                                font-size: 1rem;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 1.5rem;
+                                margin-top: 1rem;
+                            }
+                        }
+
+                        &:nth-child(2) {
+                            background-color: @white;
+
+                            img {
+                                object-fit: contain;
+                                margin: 0 auto;
+                            }
+
+                            h1 {
+                                color: @dark-blue;
+                                font-family: @heading;
+                                font-size: 3.5rem;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 4rem;
+                                margin: 0;
+                            }
+
+                            p {
+                                color: @dark-blue-90;
+                                font-family: @text;
+                                font-size: 1rem;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 1.5rem;
+                                margin-top: 1rem;
+                            }
+                        }
+                    }
+
+                    &:nth-child(2) {
+                        padding: 0;
+
+                        .column {
+                            background-color: @dark-blue;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            position: relative;
+
+                            .info {
+                                height: 100%;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: flex-end;
+
+                                .badge {
+                                    width: 7rem;
+                                    object-fit: contain;
+                                    position: absolute;
+                                    top: 3.5rem;
+                                    left: 3.5rem;
+                                }
+
+                                h1 {
+                                    color: @white;
+                                    font-family: @heading;
+                                    font-size: 3.5rem;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 4rem;
+                                }
+
+                                p {
+                                    color: @white-90;
+                                    font-family: @text;
+                                    font-size: 1rem;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: 1.5rem;
+                                    width: 60%;
+                                }
+                            }
+
+                            .globe {
+                                position: absolute;
+                                right: 0;
+                                width: 40rem;
+                                object-fit: contain;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// tradable section
+.ui {
+    &.container {
+        &.tradable-section {
+            width: 100%;
+            padding: 8rem 6rem 5.5rem 6rem;
+            background-color: @light-purple-bg;
+            position: relative;
+
+            .topbar {
+                position: relative;
+                .card {
+                    background-color: @light-purple-bg;
+                    border-radius: 3.5rem;
+                    display: flex;
+                    padding: 6rem 5.38rem;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    position: absolute;
+                    width: 100%;
+                    top: -17rem;
+                    box-shadow: none;
+
+                    h1 {
+                        color: @purple;
+                        font-family: @heading;
+                        font-size: 4.5rem;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 5rem;
+
+                        span {
+                            color: @dark-blue;
+                            font-size: 4.5rem;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 5rem;
+                        }
+                    }
+                }
+            }
+
+            .level-1 {
+                margin: 0;
+                padding: 0;
+                margin-top: 6rem;
+                .row {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: flex-start;
+                    gap: 1.25rem;
+
+                    .column {
+                        display: flex;
+                        flex: 1;
+                        width: 100%;
+                        height: 36rem;
+                        padding: 3.5rem 3.5rem 4.5rem 3.5rem;
+                        flex-direction: column;
+                        justify-content: flex-start;
+                        align-items: flex-start;
+                        flex-shrink: 0;
+                        border-radius: 3.5rem;
+
+                        &:first-child {
+                            background-color: @purple;
+
+                            img {
+                                object-fit: cover;
+                                width: 18rem;
+                                margin: -2rem auto 0 auto;
+                            }
+
+                            h1 {
+                                color: @white;
+                                font-family: @heading;
+                                font-size: 3.5rem;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 4rem;
+                            }
+
+                            p {
+                                color: @white-90;
+                                font-family: @text;
+                                font-size: 1rem;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 1.5rem;
+                            }
+                        }
+
+                        &:nth-child(2) {
+                            background-color: @white;
+
+                            img {
+                                object-fit: contain;
+                                width: 18rem;
+                                margin: -2rem auto 0 auto;
+                            }
+
+                            h1 {
+                                color: @dark-blue;
+                                font-family: @heading;
+                                font-size: 3.5rem;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 4rem;
+                                margin: 0;
+                            }
+
+                            p {
+                                color: @dark-blue-90;
+                                font-family: @text;
+                                font-size: 1rem;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 1.5rem;
+                                margin-top: 1rem;
+                            }
+                        }
+                    }
+
+                    &:nth-child(2) {
+                        padding: 0;
+
+                        .column {
+                            display: flex;
+                            flex: 1;
+                            width: 100%;
+                            height: 36rem;
+                            padding: 3.5rem 3.5rem 4.5rem 3.5rem;
+                            flex-direction: column;
+                            justify-content: flex-start;
+                            align-items: flex-start;
+                            flex-shrink: 0;
+                            border-radius: 3.5rem;
+
+                            &:first-child {
+                                background-color: @white;
+
+                                img {
+                                    object-fit: contain;
+                                    width: 28rem;
+                                    margin: 0 auto;
+                                }
+
+                                h1 {
+                                    color: @dark-blue;
+                                    font-family: @heading;
+                                    font-size: 3.5rem;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 4rem;
+                                }
+
+                                p {
+                                    color: @dark-blue-90;
+                                    font-family: @text;
+                                    font-size: 1rem;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: 1.5rem;
+                                }
+                            }
+
+                            &:nth-child(2) {
+                                background-color: @dark-blue;
+
+                                img {
+                                    object-fit: contain;
+                                    width: 28rem;
+                                    margin: 0 auto;
+                                }
+
+                                h1 {
+                                    color: @white;
+                                    font-family: @heading;
+                                    font-size: 3.5rem;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 4rem;
+                                }
+
+                                p {
+                                    color: @white-90;
+                                    font-family: @text;
+                                    font-size: 1rem;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: 1.5rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// message card
+.ui {
+    &.container {
+        &.message-card {
+            width: 100%;
+            padding: 8rem 6rem 0 6rem;
+
+            .card {
+                background-color: @white;
+                border-radius: 3.5rem;
+                display: flex;
+                padding: 3.5rem 3.5rem 4.5rem 3.5rem;
+                flex-direction: column;
+                align-items: flex-start;
+                width: 100%;
+                position: relative;
+
+                .circular-img {
+                    width: 4rem;
+                    height: 4rem;
+                    padding: 0.5rem;
+                    border-radius: 6.25rem !important;
+                    background: @dark-blue;
+                    overflow: hidden;
+                }
+
+                .msg-box {
+                    margin-top: 2.5rem;
+                    h1 {
+                        color: @dark-blue;
+                        font-family: @heading;
+                        font-size: 3.5rem;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 4rem;
+                    }
+
+                    p {
+                        color: @dark-blue-90;
+                        font-family: @text;
+                        font-size: 1.5rem;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 2rem;
+                        width: 50%;
+                    }
+
+                    [role='list'] {
+                        [role='listitem'] {
+                            display: flex;
+                            align-items: center;
+                            gap: 0.3rem;
+
+                            i {
+                                color: @dark-blue-90;
+                                font-weight: 600;
+                            }
+                            .content {
+                                color: @dark-blue-90;
+                                font-family: @text;
+                                font-size: 1rem;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 1.5rem;
+                            }
+                        }
+                    }
+                }
+
+                .top-img {
+                    position: absolute;
+                    right: 2rem;
+                    top: 1rem;
+                    z-index: 100;
+
+                    img {
+                        object-fit: contain;
+                    }
+                }
+
+                .mid-img {
+                    position: absolute;
+                    right: 8rem;
+                    top: 4rem;
+                    width: 17rem;
+
+                    img {
+                        object-fit: contain;
+                    }
+                }
+
+                .bottom-img {
+                    position: absolute;
+                    right: 25rem;
+                    bottom: 2rem;
+
+                    img {
+                        object-fit: contain;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//email card bottom
+.ui {
+    &.container {
+        &.email-card-btm {
+            width: 100%;
+            padding: 1.25rem 6rem 10rem 6rem;
+            position: relative;
+
+            .card {
+                background-color: @light-blue-bg;
+                border-radius: 3.5rem;
+                display: flex;
+                padding: 4.5rem 3.5rem;
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+
+                h1 {
+                    font-family: @heading;
+                    font-size: 3.5rem;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 4rem;
+                    text-align: center;
+                    color: @dark-blue;
+                    margin: 0;
+
+                    .blue {
+                        color: @blue;
+                    }
+                }
+
+                p {
+                    font-family: @text;
+                    font-size: 1.5rem;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 2rem;
+                    color: @dark-blue-90;
+                    text-align: center;
+                    margin: 1rem auto 0 auto;
+                    width: 60%;
+                    margin-bottom: 3rem;
+                }
+
+                .input {
+                    display: flex;
+                    align-items: center;
+
+                    input {
+                        border-top-left-radius: 2.5rem !important;
+                        border-bottom-left-radius: 2.5rem !important;
+                        background-color: @white;
+                        overflow: hidden;
+                        border: 1px solid @white;
+                        padding: 1.25rem 2rem;
+                        width: 20rem;
+
+                        &::placeholder {
+                            color: @dark-blue-90;
+                            font-family: @text;
+                            font-size: 1rem;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: 1.5rem;
+                        }
+                    }
+
+                    button {
+                        margin: 0;
+                        border-radius: 0rem 2.5rem 2.5rem 0rem;
+                        background-color: @yellow-button;
+                        color: @dark-blue;
+                        display: flex;
+                        width: 12.5rem;
+                        padding: 1.25rem 2rem;
+                        justify-content: center;
+                        align-items: center;
+                        font-family: @text;
+                        font-size: 1rem;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 1.5rem;
+                        border: none;
+                        outline: none;
+                    }
+                }
+
+                .stat {
+                    display: flex;
+                    align-items: center;
+                    gap: 2.38rem;
+                    justify-content: flex-start;
+                    margin-top: 3rem;
+
+                    h2 {
+                        color: @blue;
+                        font-family: @heading;
+                        font-size: 3.5rem;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 4rem;
+                        margin: 0;
+                    }
+
+                    h1 {
+                        color: @dark-blue;
+                        font-family: @heading;
+                        font-size: 2rem;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 2.5rem;
+                        text-align: start;
+                        margin: 0;
+                    }
+                }
+
+                .img-bot {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                }
+
+                .right-img {
+                    position: absolute;
+                    bottom: -7rem;
+                    right: -5rem;
+                }
+            }
+        }
+    }
+}

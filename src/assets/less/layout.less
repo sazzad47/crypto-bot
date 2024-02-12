@@ -1,0 +1,138 @@
+// navbar
+.ui {
+    &.container {
+        &.nav {
+            width: 100%;
+            padding: 1.25rem;
+            background-color: @dark-blue;
+        }
+    }
+}
+
+.ui {
+    &.nav {
+        &.menu {
+            display: flex;
+            justify-content: space-between;
+            background-color: @header-dark-blue;
+            border-radius: 3.5rem;
+            padding: 1rem;
+
+            a {
+                text-decoration: none;
+                color: @white;
+                font-family: @text;
+                font-size: 1rem;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 1.5rem;
+                text-transform: none;
+
+                &:hover {
+                    color: @yellow-button;
+                }
+
+                &.active {
+                    color: @yellow-button;
+
+                    &:hover {
+                        color: @yellow-button;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// logo
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.ui {
+    &.button {
+        &.login {
+            border-radius: 2.5rem;
+            background: @blue-button;
+            color: @dark-blue;
+            display: flex;
+            width: 8.5rem;
+            height: 3rem;
+            padding: 1rem 2rem;
+            justify-content: center;
+            align-items: center;
+            font-family: @text;
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 1.5rem;
+        }
+    }
+}
+
+// footer
+.ui {
+    &.container {
+        &.footer {
+            width: 100%;
+            padding: 4.5rem 6rem;
+            background-color: @dark-blue;
+            border-top: 1px solid @grey;
+
+            .ui.grid {
+                .four.column.row {
+					width: 100%;
+					display: flex;
+					justify-content: space-between;
+					
+                    .column {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+						width: auto !important;
+
+                        &:first-child {
+                            h1 {
+                                color: @white-90;
+                                font-family: @lato;
+                                font-size: 1.5rem;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 2rem;
+                            }
+                        }
+
+                        a {
+                            font-family: @text;
+                            font-size: 1rem;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: 1.5rem;
+                            color: @white;
+                            margin: 0;
+                            margin-bottom: 1.3rem;
+
+                            &:last-child {
+                                margin-bottom: 0;
+                            }
+                        }
+
+                        &:last-child {
+							display: flex;
+							flex-direction: column;
+							align-items: flex-end;
+
+                            img {
+                                width: 2rem;
+                                height: 2rem;
+								cursor: pointer;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
